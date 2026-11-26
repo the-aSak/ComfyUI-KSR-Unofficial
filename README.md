@@ -56,7 +56,7 @@ what the reference computes under autocast anyway. fp8 applies only to the atten
 | Input | Meaning |
 |---|---|
 | `upscale_factor` | 2 or 4 |
-| `creativity` | 0–8, calibrated presets. 4 = default (t = 0.15 at x2, 0.244 at x4); higher values invent more detail |
+| `creativity` | 0–8, calibrated presets. 4 = default (t = 0.15 at x2, 0.244 at x4). Higher values let the model change the input more: depending on content this can add texture (e.g. hatching) or smooth it away (e.g. skin) |
 | `overlap` | tile overlap as a fraction of the low-res tile; 0.25 = reference |
 | `tile_batch_size` | tiles per transformer pass (slightly faster, more VRAM); the VAE always gets up to 8 tiles per call |
 
@@ -81,8 +81,8 @@ All examples: a 2048 px image downscaled to 512 px, then upscaled x4 (creativity
 turns into plausible-looking but wrong letters, the typical failure of generative upscalers. Don't use it where small
 print has to be exact.
 
-**creativity** trades faithfulness for invented detail. Higher values sharpen and texture more, but stray further
-from the original:
+**creativity** controls how strongly the model re-synthesizes the input. Higher values stray further from the original; 
+whether that adds or removes fine texture seemingly depends on the content:
 
 ![creativity 0 / 4 / 8 vs. original](docs/creativity_poster.jpg)
 
