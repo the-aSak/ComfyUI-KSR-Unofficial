@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-ksr-unofficial"
 description = "Unofficial native ComfyUI nodes for Kandinsky ImageSR 2.0 (one-step diffusion super-resolution, x2/x4)."
-version = "0.1.0"
+version = "0.1.1"
 license = { file = "LICENSE" }
 dependencies = []
 
