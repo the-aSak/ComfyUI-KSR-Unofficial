@@ -9,6 +9,6 @@ dependencies = []
 Repository = "https://github.com/the-aSak/ComfyUI-KSR-Unofficial"
 
 [tool.comfy]
-PublisherId = ""  # TODO: your Comfy Registry publisher ID
+PublisherId = "the-asak" 
 DisplayName = "KSR-Unofficial (Kandinsky ImageSR 2.0)"
 Icon = ""
