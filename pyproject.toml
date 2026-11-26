@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-ksr-unofficial"
+description = "Unofficial native ComfyUI nodes for Kandinsky ImageSR 2.0 (one-step diffusion super-resolution, x2/x4)."
+version = "0.1.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/the-aSak/ComfyUI-KSR-Unofficial"
+
+[tool.comfy]
+PublisherId = ""  # TODO: your Comfy Registry publisher ID
+DisplayName = "KSR-Unofficial (Kandinsky ImageSR 2.0)"
+Icon = ""
