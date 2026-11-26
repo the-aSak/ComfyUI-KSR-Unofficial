@@ -93,7 +93,7 @@ RTX 4070 Ti SUPER 16 GB, 32 GB RAM, Windows, ComfyUI portable (0.45.0), x4, crea
 | Weights | Input → output | Tiles | Time | VRAM (whole device, Task Manager) |
 |---|---|---|---|---|
 | bf16 | 512² → 2048² | 9 | 13.0 s (model not yet on GPU) | – |
-| bf16 | 2048² → 8192² | 121 | 158 s (encode 28 / transformer 91 / decode 39) | ~14.6 GB peak |
+| bf16 | 2048² → 8192² | 121 | 158 s (encode 28 / transformer 91 / decode 39) | ~14.85 GB peak |
 | fp8 | 2048² → 8192² | 121 | 159 s | ~13.5 GB peak |
 
 ComfyUI keeps models and cache in VRAM when it can, so the device-wide figure is an upper bound, not a requirement.
