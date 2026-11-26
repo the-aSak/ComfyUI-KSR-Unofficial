@@ -114,6 +114,6 @@ Timings were taken before the VAE batching was added; encode/decode should now b
 - Kandinsky 5 building blocks in Diffusers: Hugging Face, Apache-2.0 (basis of `native/model.py`)
 - VAE (not included): [FLUX.1-schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) by Black Forest Labs, Apache-2.0
 - Example images: generated with Krea 2 Raw (bf16) + Turbo LoRA, 7 steps, ~4 MP native; test chart: own work, text from Kafka, *Die Verwandlung* (1915, public domain)
-- This node pack: MIT, © 2026 the-aSak, Claude.
+- This node pack: MIT, © 2026 the-aSak. Developed with Claude by Anthropic. 
 
 All third-party code and every change made to it are listed in [`NOTICE.md`](NOTICE.md).
