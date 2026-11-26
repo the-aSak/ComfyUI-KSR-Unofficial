@@ -17,7 +17,7 @@ the core **Load VAE** node. No extra Python packages are needed.
 cd ComfyUI/custom_nodes
 git clone https://github.com/the-aSak/ComfyUI-KSR-Unofficial
 ```
-<!-- TODO: ComfyUI Manager / Registry entry -->
+Or install it from ComfyUI-Manager: Search for **KSR-Unofficial**.
 
 ## Models
 
