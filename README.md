@@ -108,6 +108,10 @@ Timings were taken before the VAE batching was added; encode/decode should now b
   invented detail is penalised more than blur. This is the known perception–distortion trade-off (Blau & Michaeli,
   CVPR 2018). Judge the crops above, not the numbers.
 
+## Known issues
+
+- **Grid pattern on skin in AI-generated images.** Upscaling already high-res AI images (especially from SDE samplers such as er_sde) can turn their faint latent-grid texture into a visible cross-hatch pattern. It does not appear on real photos. Lower creativity, possibly a slight blur before upscaling (e.g. ImageBlur radius 1, sigma 0.5–0.8), or downscaling first can reduce it.
+
 ## Credits & license
 
 - Model, original pipeline and tiling code: [Kandinsky Lab](https://huggingface.co/kandinskylab), MIT
