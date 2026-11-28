@@ -23,7 +23,7 @@ State-dict key names are kept identical so that the original weights load unchan
 
 ## 3. Weights (not part of this repository)
 
-The transformer file on Hugging Face ([hmdlsk/Kandinsky-ImageSR-2.0-ComfyUI](https://huggingface.co/hmdlsk/Kandinsky-ImageSR-2.0-ComfyUI)) is produced by `tools/merge_kandinsky_sr.py`.
+The transformer file on Hugging Face ([hmdlsk/Kandinsky-ImageSR-2.0-ComfyUI-Unofficial](https://huggingface.co/hmdlsk/Kandinsky-ImageSR-2.0-ComfyUI-Unofficial)) is produced by `tools/merge_kandinsky_sr.py`.
 Tensor values are **not** modified: no retraining, no requantization, no dtype conversion. Byte-identity can be
 checked with `--verify`.
 

@@ -23,7 +23,7 @@ Or install it from ComfyUI-Manager: Search for **KSR-Unofficial**.
 
 | File | Size | Download | Folder |
 |---|---|---|---|
-| `kandinsky_imagesr_2.0.safetensors` (transformer, bf16) | ~10.3 GB | [hmdlsk/Kandinsky-ImageSR-2.0-ComfyUI](https://huggingface.co/hmdlsk/Kandinsky-ImageSR-2.0-ComfyUI) | `models/diffusion_models/` |
+| `kandinsky_imagesr_2.0.safetensors` (transformer, bf16) | ~10.3 GB | [hmdlsk/Kandinsky-ImageSR-2.0-ComfyUI-Unofficial](https://huggingface.co/hmdlsk/Kandinsky-ImageSR-2.0-ComfyUI-Unofficial) | `models/diffusion_models/` |
 | FLUX.1 VAE `ae.safetensors` (most FLUX users already have it) | 335 MB | [black-forest-labs/FLUX.1-schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) | `models/vae/` |
 
 The VAE that ships with Kandinsky ImageSR **is** the FLUX.1 VAE, stored as bf16. `tools/compare_vae.py` checks this
